@@ -11,7 +11,8 @@ jobs:
   build:
 
     runs-on: self-hosted
-
+    environment:
+       name: production
     strategy:
       matrix:
         node-version: [22.x]
