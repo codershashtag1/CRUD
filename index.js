@@ -17,6 +17,10 @@ app.get('/', (req, res) => {
     res.send("Hello World");
 })
 
+app.get('/rest', (req, res) => {
+    res.send("i am the new API")
+})
+
 app.listen(3000, () => {
     console.log("Server Running");
 })
